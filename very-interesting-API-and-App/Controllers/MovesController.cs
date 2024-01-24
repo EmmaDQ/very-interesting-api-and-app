@@ -91,5 +91,40 @@ namespace very_interesting_API_and_App.Controllers
             },
        };
 
+        [HttpGet]
+        public ActionResult<List<MovieModel>> Get()
+        {
+            if (Movies != null && Movies.Any())
+            {
+                return Ok(Movies);
+            }
+
+            return NotFound("Coud not find any movies =(");
+
+        }
+
+        [HttpGet("{id}")]
+        public ActionResult<MovieModel> Get(int id)
+        {
+            MovieModel? movie = Movies.FirstOrDefault(m => m.Id == id);
+
+            if (movie != null)
+            {
+                return Ok(movie);
+            }
+
+            return NotFound();
+
+        }
+
+        //[HttpPost]
+        //public ActionResult Post(MovieModel movie)
+        //{
+        //    if (movie != null)
+        //    {
+
+        //    }
+        //}
+
     }
 }
