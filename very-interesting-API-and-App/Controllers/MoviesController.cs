@@ -23,7 +23,7 @@ namespace very_interesting_API_and_App.Controllers
                 Title = "The Shawshank Redemption",
                 Genre = "Drama",
                 ReleaseYear = 1994,
-                ImageLink = "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.fruugo.se%2Fthe-shawshank-redemption-movie-poster-print-27-x-40%2Fp-8933449-19257485%3Flanguage%3Den&psig=AOvVaw2F5j8qyb9fThII2yuc6GBW&ust=1706252890135000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCLCEocD994MDFQAAAAAdAAAAABAD"
+                ImageLink = "https://img.fruugo.com/product/3/62/14284623_max.jpg"
             },
             new MovieModel
             {
@@ -87,7 +87,7 @@ namespace very_interesting_API_and_App.Controllers
                 Title = "The Lord of the Rings: The Fellowship of the Ring",
                 Genre = "Adventure",
                 ReleaseYear = 2001,
-                ImageLink = "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.amazon.com%2FRINGS-FELLOWSHIP-MOVIE-POSTER-ORIGINAL%2Fdp%2FB008KPE6K2&psig=AOvVaw3VbNukQr5TWWDqZnMqLUjw&ust=1706253164478000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCMju78D-94MDFQAAAAAdAAAAABAD"
+                ImageLink = "https://www.imdb.com/title/tt0120737/mediaviewer/rm1100356353/?ref_=tt_ov_i"<
             },
        };
 
